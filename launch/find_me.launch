@@ -1,0 +1,6 @@
+<launch> 
+   <group ns="find_me_launch">
+     <node pkg="find_me" name="find_me" type="FindMe"/>
+     <node pkg="find_me" name="find_me_logic" type="find_me_logic"/>
+   </group>
+ </launch>
